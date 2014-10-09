@@ -1,0 +1,41 @@
+@charset="UTF-8"
+html{
+	height: 100%;
+	min-height: 100%;
+}
+body{
+	height: 100%;
+	min-height: 100%;
+	background: #DBDBDB;
+}
+.col-xs-4{
+	height: 33.4%;
+	margin-top: 7px;
+}
+.container{
+	height: 100%;
+	min-height: 100%;
+}
+.banner img{
+	width: 100%;
+}
+.block-reference{
+	background: #808080;
+	width: 100%;
+	height: 33.4%;
+	margin: 2px;
+	border-radius: 7px;
+}
+.block-reference p{
+	color: #FFFFFF;
+	text-align: center;
+}
+.pink-block-news{
+	width: 100%;
+	background: #FF2DA2;
+	height: 25%;
+}
+.copy-right{
+	text-align: center;
+	bottom: 0px;
+}
