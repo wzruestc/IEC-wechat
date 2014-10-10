@@ -30,6 +30,9 @@ body{
 	color: #FFFFFF;
 	text-align: center;
 }
+.block-reference i{
+	color: #0F160A;
+}
 .pink-block-news{
 	width: 100%;
 	background: #FF2DA2;
