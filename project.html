@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IEC</title>
+    <link href="./view/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./view/font-awesome.min.css">
+    <link href="./view/project-css.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="container">
+        <div class="banner">
+            <img src="./img/banner1.png">
+        </div>
+        <div class="row row-fade-out">
+            <div class="col-xs-12">
+                <blockquote>
+                    <p>
+                    这里
+                    </br>
+                    是一群互联网原教旨主义者
+                    </p>
+                    <p>
+                    因为狂热，所以以梦为马
+                    </br>
+                    因为信仰，所以永不懈怠
+                    </p>
+                    <p>    
+                    如果，
+                    </br>
+                    你执拗于改变与创新
+                    </br>
+                    热爱你的互联网之梦
+                    </p>
+                    <p>
+                    那么，请到这里
+                    </br>
+                    我们一同
+                    </br>
+                    让世界，因为我们的存在
+                    </br>
+                    有那么一点点
+                    </br>
+                    不一样
+                    </p>
+                </blockquote>
+            </div>
+        </div>
+            <div class="row row-fade-out">
+                <div class="col-xs-12">
+                    <a href="#" id="fade-in-out">已完成的项目</a>
+                </div>
+            </div>  
+            <div class="row row-fade-in">
+                <div class="col-xs-12">
+                    <span><i class="fa fa-html5"></i></span>
+                </div>
+            </div>
+            <div class="row row-fade-in">
+                <div class="col-xs-12">
+                    <span><i class="fa fa-apple"></i></span>
+                </div>
+            </div>
+            <div class="row row-fade-in">
+                <div class="col-xs-12">
+                    <span><i class="fa fa-android"></i></span>
+                </div>
+            </div>
+	</div>
+</body>
+<script src="./control/jQuery1.11.1.js"></script>
+<script src="./control/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#fade-in-out").click(function(){
+            $(".row-fade-out").fadeOut(1000);
+            $(".row-fade-in").fadeIn(3000);
+        });
+    });
+</script>
+</html>
+
+
+
+ 

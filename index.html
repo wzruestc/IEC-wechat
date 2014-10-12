@@ -12,7 +12,7 @@
 <body>
 	<div class="container">
 		<div class="banner">
-			<img src="./img/banner1.png">
+			<img src="./img/banner2.png">
 		</div>
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		  <!-- Indicators -->
@@ -20,46 +20,51 @@
 				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
 		  	</ol>
 
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner" role="listbox">
 		    <div class="item active">
-		    	<img src="./img/carousel4.png" alt="">
+		    	<img src="./img/carousel1.jpg" alt="">
 		    </div>
 		    <div class="item">
-		    	<img src="./img/carousel5.jpg" alt="">
+		    	<img src="./img/carousel2.png" alt="">
 		    </div>
 		    <div class="item">
-		    	<img src="./img/carousel6.jpg" alt="">
+		    	<img src="./img/carousel3.jpg" alt="">
+		    </div>
+		    <div class="item">
+		    	<img src="./img/carousel4.jpg" alt="">
 		    </div>
 		  </div>
 
 		  <!-- Controls -->
 		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-		    <span><i class="fa fa-chevron-left"></i></span>
+		    <div class="icon-position-center"><i class="fa fa-chevron-left"></i></div>
 		  </a>
 		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-		    <span><i class="fa fa-chevron-right"></i></span>
+		    <div class="icon-position-center"><i class="fa fa-chevron-right"></i></div>
 		  </a>
 		</div>
+		<!-- span改为了div -->
 		<div class="row">
 			<div class="col-xs-4">
 				<div class="block-reference">
 					<a href="./our-team.html">
-						<span>
+						<div>
 						<i class="fa fa-camera-retro fa-3x"></i>
-						</span>
+						</div>
 						<p>our team</p>
 					</a>
 				</div>
 			</div>
 			<div class="col-xs-4">
 				<div class="block-reference">
-					<a href="">
-						<span>
+					<a href="./project.html">
+						<div>
 						<i class="fa fa-file-code-o fa-3x"></i>
-						</span>
+						</div>
 						<p>our project</p>
 					</a>
 				</div>
@@ -67,9 +72,9 @@
 			<div class="col-xs-4">
 				<div class="block-reference">
 					<a href="">
-						<span>
+						<div>
 						<i class="fa fa-picture-o fa-3x"></i>
-						</span>
+						</div>
 						<p class="grey-block-words">our photos</p>
 					</a>
 				</div>
@@ -77,8 +82,12 @@
 		</div>
 		<div class="row">
 			<div class="col-xs-12">
-				<span class="pink-block-news">
-				</span>
+				<span>地址：清水河校区科研楼B 258室</span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<a href="">加入我们</a>
 			</div>
 		</div>
 		<p class="copy-right">©IEC</p>

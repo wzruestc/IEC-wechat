@@ -12,6 +12,10 @@ body{
 	height: 33.4%;
 	margin-top: 7px;
 }
+.col-xs-12{
+	text-align: center;
+	margin-top: 8px;
+}
 .container{
 	height: 100%;
 	min-height: 100%;
@@ -26,17 +30,19 @@ body{
 	margin: 2px;
 	border-radius: 7px;
 }
+.block-reference div{
+	text-align: center;
+}
 .block-reference p{
 	color: #FFFFFF;
 	text-align: center;
 }
 .block-reference i{
 	color: #0F160A;
+	margin-top: 10px;
 }
-.pink-block-news{
-	width: 100%;
-	background: #FF2DA2;
-	height: 25%;
+.icon-position-center{
+	text-align: center;
 }
 .copy-right{
 	text-align: center;
